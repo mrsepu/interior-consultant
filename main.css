@@ -1,0 +1,112 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+}
+
+.active {
+    text-decoration: underline;
+    /* border-bottom: solid 2px #fff;
+    padding-bottom: 4px; */
+
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1rem;
+    width: 60%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding-top: 3%;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.6rem;
+    margin-bottom: 0;
+}
+
+.navbar {
+    margin-right: -12px;
+}
+.navbar-brand span {
+    border: 1px solid #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.6rem;
+    margin-left: 2px;
+}
+.navbar-brand {
+    padding-top: 0 !important;
+}
+.navbar-toggler {
+    max-width: 55px;
+    margin-right: -12px !important;
+    border: none;
+}
+
+header a {
+    font-weight: 700;
+}
+
+header a span{
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.cardi {
+    width: 85%;
+    display: block;
+    background-color: #000;
+    padding: 15px 25px;
+    position: relative;
+    left: 10%;
+    bottom: 15%;
+    color: #fff;
+}
+
+.cardi img {
+    border-radius: 50%;
+    width: 50px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.cardi div {
+    /* height: 5vw; */
+}
+
+.cardi p {
+    clear: left;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    width: 60%;
+}
+
+footer p, footer p a {
+    color: #A9A9A9;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 767px) {
+    .cardi {
+        width: 60%;
+        left: 35%;
+    }
+
+    .cardi p {
+        width: 70%;
+    }
+}
